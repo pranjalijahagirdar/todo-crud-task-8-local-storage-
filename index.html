@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo task with local storage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <h1>STUDENT CATEGORY CRUD</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="electronicsForm">
+                            <div class="form-group">
+                                <label for="category">Category</label>
+                                <select class="form-control" id="category">
+                                    <option value="Computer">Computer</option>
+                                    <option value="Mobile">Mobile</option>
+                                    <option value="Audio">Audio</option>
+                                    <option value="Wearable">Wearable</option>
+                                    <option value="
+                                    Computer">Computer</option>
+                                </select>
+                            </div>
+                                <button type="submit" class="btn btn-sm btn-info btn-block" id="addelectronicBtn">Add Electronics</button>
+                                <button type="button" class="btn btn-sm btn-danger btn-block d-none" id="updateelectronicBtn">Update Electronics</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <ul class="list-group" id="electronicList">
+                        <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <strong>Audio</strong>
+                            <div>
+                                <button class="btn btn-sm text-primary" role="button">Edit</button>
+                                <button class="btn btn-sm text-danger" role="button">Remove</button>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h1{
+    padding:10px;
+    margin:10px;
+    background-color:brown;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+}
